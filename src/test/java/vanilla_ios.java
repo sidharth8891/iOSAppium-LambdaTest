@@ -11,9 +11,9 @@ import java.net.URL;
 
 public class vanilla_ios {
 
-    public static String userName = System.getenv("LT_USERNAME") == null ? "LT_USERNAME"  //Add username here
+    public static String userName = System.getenv("LT_USERNAME") == null ? "sidharth.shukla19"  //Add username here
             : System.getenv("LT_USERNAME");
-    public static String accessKey = System.getenv("LT_ACCESS_KEY") == null ? "LT_ACCESS_KEY" //Add accessKey here
+    public static String accessKey = System.getenv("LT_ACCESS_KEY") == null ? "plnJxuqFMhRdmIlrZ549UceavVC5iyUAg3a14Vb5UcA5Ulk15j" //Add accessKey here
             : System.getenv("LT_ACCESS_KEY");
 
     public static final String URL = "https://" + userName + ":" + accessKey + "@beta-hub.lambdatest.com/wd/hub";
@@ -26,7 +26,7 @@ public class vanilla_ios {
             caps.setCapability("platformVersion", "15");
             caps.setCapability("deviceName", "iPhone 12");
             caps.setCapability("isRealMobile", true);
-            caps.setCapability("app", "APP_ID"); //Enter your app url
+            caps.setCapability("app", "lt://APP10160532421657905492044541"); //Enter your app url
             caps.setCapability("platformName", "iOS");
             caps.setCapability("build", "Java Vanilla - iOS");
             caps.setCapability("name", "Sample Test Java");
@@ -39,39 +39,39 @@ public class vanilla_ios {
 
             Thread.sleep(2000);
 
-            //Changes color
+//            //Changes color
+//
+//            driver.findElement(MobileBy.id("color")).click();
+//            Thread.sleep(1000);
+//
+//            //Back to black color
+//            driver.navigate().back();
+//
+//            Thread.sleep(1000);
+//
+//            //Changes the text to proverbial
+//            driver.findElement(MobileBy.id("Text")).click();
+//            Thread.sleep(1000);
+//
+//            //toast is visible
+//            driver.findElement(MobileBy.id("toast")).click();
+//            Thread.sleep(1000);
+//
+//            //notification is visible
+//            driver.findElement(MobileBy.id("notification")).click();
+//            Thread.sleep(2000);
 
-            driver.findElement(MobileBy.id("color")).click();
-            Thread.sleep(1000);
-
-            //Back to black color
-            driver.navigate().back();
-
-            Thread.sleep(1000);
-
-            //Changes the text to proverbial
-            driver.findElement(MobileBy.id("Text")).click();
-            Thread.sleep(1000);
-
-            //toast is visible
-            driver.findElement(MobileBy.id("toast")).click();
-            Thread.sleep(1000);
-
-            //notification is visible
-            driver.findElement(MobileBy.id("notification")).click();
-            Thread.sleep(2000);
-
-            //Open the geolocation page
-            driver.findElement(MobileBy.id("geoLocation")).click();
-            Thread.sleep(4000);
-            driver.navigate().back();
-            Thread.sleep(1000);
-
-            //Takes to speed test page
-            driver.findElement(MobileBy.id("speedTest")).click();
-            Thread.sleep(5000);
-            driver.navigate().back();
-            Thread.sleep(1000);
+//            //Open the geolocation page
+//            driver.findElement(MobileBy.id("geoLocation")).click();
+//            Thread.sleep(4000);
+//            driver.navigate().back();
+//            Thread.sleep(1000);
+//
+//            //Takes to speed test page
+//            driver.findElement(MobileBy.id("speedTest")).click();
+//            Thread.sleep(5000);
+//            driver.navigate().back();
+//            Thread.sleep(1000);
 
             //Opens the browser
             MobileElement browser = (MobileElement) driver.findElementByAccessibilityId("Browser");
