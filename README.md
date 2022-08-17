@@ -1,5 +1,3 @@
-# iOSTestWithAppium
-iOSTestWithAppium
 
 ## Pre-requisites
 
@@ -18,7 +16,7 @@ Before you can start performing App automation testing with Appium, you would ne
 **Step-1:** Clone the repo as shown below
 
 ```bash
-git clone https://github.com/sidharth8891/iOSTestWithAppium
+git clone https://github.com/sidharth8891/iOSAppium-LambdaTest
 cd <projectPath>
 ```
 
