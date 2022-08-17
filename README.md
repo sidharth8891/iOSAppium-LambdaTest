@@ -15,10 +15,10 @@ Before you can start performing App automation testing with Appium, you would ne
   
 ### Clone The Sample Project
 
-**Step-1:** Clone the LambdaTest's [LT-appium-java](https://github.com/LambdaTest/LT-appium-java) and navigate to the code directory as shown below:
+**Step-1:** Clone the repo as shown below
 
 ```bash
-git clone https://github.com/sidharth8891/iOSTestWithAppium
+git clone https://github.com/sidharth8891/iOSTestWithAppium/tree/master
 cd <projectPath>
 ```
 
