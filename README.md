@@ -1,5 +1,5 @@
-# LT-appium-java
-Lt appium java
+# iOSTestWithAppium
+iOSTestWithAppium
 
 ## Pre-requisites
 
